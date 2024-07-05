@@ -46,7 +46,7 @@ const Brain = ({ scrollYProgress }) => {
                   id="rs-background"
                   stroke="#000"
                   strokeWidth="4"
-                  fill="#FFF"
+                  fill="#434040"
                 />
                 <g
                   id="rs-cog50"

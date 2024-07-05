@@ -41,7 +41,7 @@ const ContactPage = () => {
       <div className='h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48'>
         {/* TEXT CONTAINER */}
         <div className='h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl'>
-          <div>
+          <div className='text-white'>
             {text.split("").map((letter,index)=>(
               <motion.span
                 key={index}
@@ -60,7 +60,7 @@ const ContactPage = () => {
         {/* FORM CONTAINER */}
         <form 
           ref={form} 
-          className='h-1/2 lg:h-full lg:w-1/2 flex flex-col text-xl bg-red-50 rounded-xl justify-center p-24 gap-8'
+          className='h-1/2 lg:h-full lg:w-1/2 flex flex-col text-xl bg-gray-600 rounded-xl justify-center p-24 gap-8'
           onSubmit={sendEmail}
         >
           <span>Dear Sreegopan,</span>
@@ -68,7 +68,7 @@ const ContactPage = () => {
           <span>My mail address is:</span>
           <input name='user_email' type="text" className='bg-transparent border-b-2 border-b-black  outline-none'/>
           <span>Regards</span>
-          <button className='bg-purple-400 p-4 rounded font-semibold text-gray-600'>Send</button>
+          <button className='bg-black text-white p-4 rounded font-semibold text-gray-600'>Send</button>
           {success && <span className='text-green-600 font-semibold'>Your message has been sent successfully!</span> }
           {error && <span className='text-red-600 font-semibold'>Something went wrong!</span> }
         </form>

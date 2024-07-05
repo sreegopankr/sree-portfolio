@@ -30,9 +30,9 @@ const AboutPage = () => {
             {/* BIOGRAPHY TITLE */}
             <h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
-            <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, laudantium in earum consequuntur harum eligendi. Officia quas iusto reprehenderit illo impedit error laborum quam, autem placeat labore rerum odit obcaecati.</p>
+            <p className='text-lg'>I am a self-taught full stack developer with a BTech in Civil Engineering. Driven by a passion for software development, I transitioned into the tech industry, embarking on a journey of continuous self-improvement. I have completed a cohort and earned certifications in Data Structures and Algorithms, as well as the MERN stack. Currently, I am enhancing my skills by learning Next.js.</p>
             {/* BIOGRAPHY QUOTE */}
-            <span className='italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit</span>
+            <span className='italic'>Sreegopan K R</span>
             {/* BIOGRAPHY SIGN SVG */}
             <div className='self-end'>
               <svg xmlns="http://www.w3.org/2000/svg" width="172" height="116" viewBox="0 0 172 116" fill="none">

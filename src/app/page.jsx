@@ -13,18 +13,16 @@ const Homepage = () => {
     >
     <div className="h-full flex flex-col lg:flex-row  px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
       {/* IMAGE CONTAINER */}
-      <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-        <Image src="/hero.png" alt="" fill className="object-contain"/>
+      <div className="h-1/2 lg:h-full lg:w-1/2 relative ">
+        <Image src="/file.png" alt="" fill className="object-contain"/>
       </div>
       {/* TEXT CONTAINER */}
       <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center items-center gap-5">
         {/* TITLE */}
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">Crafting Digital Experiences, Designing Tomorrow.</h1>
+        <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold">Sreegopan K R.</h1>
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold" >Full Stack Developer</h2>
         {/* DESCRIPTION */}
-        <p className="text-sm md:text-xl">Welcome to my digital canvas, where innovation and creativity
-            converge. With a keen eye for aesthetics and a mastery of code, my
-            portfolio showcases a diverse collection of projects that reflect my
-            commitment to excellence.
+        <p className="text-sm md:text-xl">Striving to be the Best Version of Myself
         </p>
         {/* BUTTONS */}
         <div className="flex self-start gap-4">

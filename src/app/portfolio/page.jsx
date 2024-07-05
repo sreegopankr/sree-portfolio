@@ -7,7 +7,7 @@ import Link from 'next/link';
 const items = [
   {
     id: 1,
-    color: "from-red-300 to-blue-300",
+    color: "from-[#b92b27] to-[#1565C0]",
     title: "Real Estate App",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "/estate.png",
@@ -15,7 +15,7 @@ const items = [
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
+    color: "from-[#1565C0] to-[#373B44]",
     title: "Next.js Porfolio App",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "/portfolio.png",
@@ -23,7 +23,7 @@ const items = [
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
+    color: "from-[#373B44] to-[#cc5333]",
     title: "Ecommerce App",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "/ecommerce.png",
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-[#cc5333] to-[#dd1818]",
     title: "Spotify Music App",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "/spotify.png",
@@ -56,7 +56,7 @@ const PortfolioPage = () => {
         <div className='w-screen h-[calc(100vh-6rem)] flex justify-center items-center text-center text-8xl'>My Works</div>
         <div className='sticky top-0 h-screen flex gap-4 items-center overflow-hidden'>
           <motion.div style={{ x }} className="flex">
-            <div className='h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300'/>
+            <div className='h-screen w-screen flex items-center justify-center bg-gradient-to-r from-[#434343] to-[#b92b27]'/>
           {items.map((item) => (
             <div className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`} key={item.id}>
               <div className=' flex flex-col text-white gap-6'>
@@ -91,7 +91,7 @@ const PortfolioPage = () => {
             </defs>
             <text fill="#000">
               <textPath xlinkHref="#circlePath" className="text-xl">
-                Full Stack Developer
+                A Self Taught Full Stack Developer &nbsp;🖤
               </textPath>
             </text>
           </motion.svg>
